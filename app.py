@@ -21,7 +21,7 @@ app = Flask(__name__)
 
 
 
-MODEL_PATH = 'models/model1.h5'
+MODEL_PATH = 'models/model.h5'
 model = load_model(MODEL_PATH)
 
 model.make_predict_function()
