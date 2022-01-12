@@ -16,7 +16,7 @@ train_dir = "/cbir-flask-char/set/data/train"
 val_dir = "/cbir-flask-char/set/data/val"
 test_dir = "/cbir-flask-char/set/data/test"
 
-labels = os.listdir(train_dir, model_dir='set\data\train')
+labels = os.listdir(train_dir, model_dir='/tmp/set/data/train')
 app = Flask(__name__)
 
 
