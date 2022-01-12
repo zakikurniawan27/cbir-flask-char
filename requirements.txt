@@ -12,3 +12,4 @@ split-folders==0.4.3
 Werkzeug==2.0.2
 zipp==3.7.0
 tensorflow-cpu>=1.5.0
+virtualenv>=1.8.2
